@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6; /* keeps lines at a fixed spacing between each other */
+    background-color: gray;
+}
+
+header{
+    background: #222;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav a{
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+}
+
+section h2 {
+    border-bottom: 2px solid black;
+    padding-bottom: 0.5rem;
+}
+
+footer{
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+#greeting {
+    position: absolute;
+    left: -100%;
+    width: 100%;
+    text-align: right;
+    margin: 0 15px;
+    display: inline-block;
+    white-space: nowrap; /* stops the text from breaking up into multiple lines. */
+    animation: moveGreeting 12s linear infinite; /* runs the animation for 10 seconds and loops it forever. */
+    font-size: 2em; /* makes the font bolder */
+}
+
+@keyframes moveGreeting { /* defines the movement: right to left */
+    0% {
+        transform: translateX(100%);
+    }
+    -100% {
+        transform: translateX(-100vw);
+    }
+}
+
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    display: none;
+    cursor: pointer;
+}
