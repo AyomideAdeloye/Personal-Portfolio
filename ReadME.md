@@ -2,6 +2,13 @@
 
 A responsive web application built to showcase projects, technical skills, and GitHub repositories in a centralized platform.
 
+## Live Demo
+Deployment in progress
+
+## Preview
+![Portfolio Screenshot](<img width="1844" height="836" alt="Screenshot 2026-03-24 231614" src="https://github.com/user-attachments/assets/37778439-4f72-408c-a759-00fb8a94e068" />
+)
+
 ## Features
 - Displays 3+ technical projects
 - Responsive design for multiple screen sizes
